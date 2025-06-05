@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+html
+CopiarEditar
+<!DOCTYPE html> 
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
@@ -16,9 +18,6 @@
       color: white;
       padding: 20px;
       text-align: center;
-    }
-    header img {
-      max-height: 80px;
     }
     nav {
       background-color: #2c2c2c;
@@ -38,7 +37,7 @@
       max-width: 1000px;
       margin: auto;
     }
-    .produtos, .contato, .pagamento, .diferenciais {
+    .produtos, .contato, .pagamento, .diferenciais, .missao, .visao {
       margin-bottom: 40px;
     }
     footer {
@@ -82,6 +81,8 @@
     <a href="#contato">Contato</a>
     <a href="#pagamento">Pagamento</a>
     <a href="#diferenciais">Diferenciais</a>
+    <a href="#missao">Missão</a>
+    <a href="#visao">Visão</a>
   </nav>
 
   <section>
@@ -132,6 +133,16 @@
         <li>Entrega rápida</li>
         <li>Grande variedade em estoque</li>
       </ul>
+    </div>
+
+    <div class="missao" id="missao">
+      <h2>Nossa Missão</h2>
+      <p>Oferecer soluções em materiais elétricos e iluminação com qualidade, agilidade e atendimento técnico, promovendo segurança e eficiência para nossos clientes.</p>
+    </div>
+
+    <div class="visao" id="visao">
+      <h2>Nossa Visão</h2>
+      <p>Ser referência regional em fornecimento de materiais elétricos, reconhecida pela confiabilidade, inovação e excelência no atendimento.</p>
     </div>
 
     <a class="botao" href="https://wa.me/553138651300" target="_blank">Fale conosco no WhatsApp</a>
